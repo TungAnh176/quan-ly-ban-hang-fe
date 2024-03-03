@@ -1,4 +1,5 @@
 export const localPath = {
-    home: '/index',
-    login: '/login'
+    home: '/home',
+    login: '/login',
+    register: '/register'
 }

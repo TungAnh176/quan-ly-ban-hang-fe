@@ -4,6 +4,7 @@ import Home from "../views/Home.vue";
 // import Login from "../pages/Login.vue";
 import Main from "../pages/Main.vue";
 import Login from "../views/Login.vue";
+import Register from "@/views/Register.vue";
 import { localPath } from "@/defined/path";
 
 const router = createRouter({
@@ -34,6 +35,11 @@ const router = createRouter({
           path: localPath.home,
           name: "home",
           component: Home,
+        },
+        {
+          path: localPath.register,
+          name: "register",
+          component: Register,
         },
       ],
     },
