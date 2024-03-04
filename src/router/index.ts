@@ -23,7 +23,7 @@ const router = createRouter({
     {
       path: "/",
       name: "main",
-      redirect: localPath.login,
+      redirect: localPath.home,
       component: Main,
       children: [
         {
