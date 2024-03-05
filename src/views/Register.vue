@@ -5,22 +5,22 @@
                 <h1>Đăng ký</h1>
             </a-col>
             <a-col :span="24">
-                <a-input size="large" placeholder="Họ và tên" />
+                <a-input placeholder="Họ và tên" style="border-radius: 30px; height: 50px;"/>
             </a-col>
             <a-col :span="24">
-                <a-input size="large" placeholder="Số điện thoại" />
+                <a-input placeholder="Số điện thoại" style="border-radius: 30px; height: 50px;"/>
             </a-col>
             <a-col :span="24">
-                <a-input size="large" placeholder="Email" />
+                <a-input placeholder="Email" style="border-radius: 30px; height: 50px;"/>
             </a-col>
             <a-col :span="24">
-                <a-input size="large" placeholder="Mật khẩu" />
+                <a-input placeholder="Mật khẩu" style="border-radius: 30px; height: 50px;"/>
             </a-col>
             <a-col :span="24">
-                <RouterLink :to=localPath.login>Đăng nhập</RouterLink>
+                <RouterLink :to=localPath.login style="font-size: 16px;">Đăng nhập</RouterLink>
             </a-col>
             <a-col :span="24">
-                <a-button style="width: 100%; height: 40px;">Đăng ký</a-button>
+                <a-button style="width: 100%; height: 50px; border-radius: 30px; font-weight: bold; font-size: 20px;">Đăng ký</a-button>
             </a-col>
         </a-row>
     </div>

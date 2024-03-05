@@ -5,6 +5,7 @@ import Home from "../views/Home.vue";
 import Main from "../pages/Main.vue";
 import Login from "../views/Login.vue";
 import Register from "@/views/Register.vue";
+import Detail from "@/views/Detail.vue";
 import { localPath } from "@/defined/path";
 
 const router = createRouter({
@@ -40,6 +41,11 @@ const router = createRouter({
           path: localPath.register,
           name: "register",
           component: Register,
+        },
+        {
+          path: localPath.detail,
+          name: "detail",
+          component: Detail,
         },
       ],
     },

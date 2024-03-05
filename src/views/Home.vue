@@ -125,10 +125,11 @@
                 />
                 <h3>Giày SAMBA OG</h3>
                 <DollarCircleOutlined /> 2.700.000 vnđ
+                <RouterLink :to="localPath.detail" style="display: flex; justify-content: end;">Chi tiết</RouterLink>
               </a-card>
             </a-col>
           </template>
-            <a-col :span="8" :offset="10"><a-button type="primary">Xem Thêm</a-button></a-col>
+            <a-col :span="8" :offset="11"><a-button>Xem Thêm</a-button></a-col>
         </a-row>
       </div>
     </div>
@@ -136,6 +137,7 @@
 </template>
 
 <script setup lang="ts">
+import { localPath } from "@/defined/path";
 import {
   FunnelPlotOutlined,
   DollarCircleOutlined,
