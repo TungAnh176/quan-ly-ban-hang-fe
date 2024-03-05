@@ -172,10 +172,10 @@
         </div>
         <a-form style="margin-left: 15px; padding-left: 10px">
           <a-form-item style="width: 98%">
-            <a-input style="padding: 10px" placeholder="input placeholder" />
+            <a-input style="padding: 10px" placeholder="Tiêu đề" />
           </a-form-item>
           <a-form-item style="width: 98%">
-            <a-textarea placeholder="Basic usage" :rows="4" />
+            <a-textarea placeholder="Viết đánh giá..." :rows="4" />
           </a-form-item>
           <div style="display: flex; justify-content: space-between; margin-bottom: 10px;">
             <div style="width: 50%;">
