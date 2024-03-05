@@ -36,6 +36,7 @@
           </a-form-control>
           <a-form-control :span="24">
             <a-input
+              type="password"
               placeholder="Mật khẩu"
               style="border-radius: 30px; height: 50px"
             />
